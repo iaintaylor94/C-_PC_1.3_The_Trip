@@ -1,5 +1,5 @@
-#include <iostream>
+#include "FileHandling.h"
 
-int main() {
-  std::cout << "Hello World!\n";
+int main(int argc, char *argv[]) {
+  FileHandler fileHandler (argc, argv);
 }
